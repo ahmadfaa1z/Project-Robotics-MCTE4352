@@ -1,10 +1,11 @@
-%% Setting of the lengths of each links
+%% Length's variable initialization
 a1 = 90;
 a2 = 90;
 d1 = 60; % Height of the Robot
 d3 = 5; % Length of prismatic joint 
 
-%% L = Link([Theta d a alpha 0/1]) >> 0 for revolute and 1 for prismatic
+%% Link Initialization
+% L = Link([Theta d a alpha 0/1]) >> 0 for revolute and 1 for prismatic
 % SCARA Robot DH parameters
 L1 = Link([0 d1 a1 0 0], 'standard');
 L2 = Link([0 0 a2 pi 0], 'standard');
@@ -254,7 +255,7 @@ P230 = transl(matrix(230,1),matrix(230,2),matrix(230,3));
 P231 = transl(matrix(231,1),matrix(231,2),matrix(231,3));
 P232 = transl(matrix(232,1),matrix(232,2),matrix(232,3));
 
-%% To calculate inverse kinematics
+%% Calculation of inverse kinematics
 
 q0 = [0 0 0 0];
 q1 = Rob.ikine(P1,q0,[1,1,1,0,0,0]);
@@ -490,10 +491,10 @@ q230 = Rob.ikine(P230,q229,[1,1,1,0,0,0]);
 q231 = Rob.ikine(P231,q230,[1,1,1,0,0,0]);
 q232 = Rob.ikine(P232,q231,[1,1,1,0,0,0]);
 
-%% To calculate forward kinematics
+%% Calculation of forward kinematics (if needed)
 % q1_P1 = Rob.fkine(q1);
 
-%% Plotting the trajectory path of the robot
+%% Trajectory path line of the robot
 trajectorypath = dlmread('./Name-Coordinates/lastname_traj.txt');
 [nx,ny] = size(trajectorypath);
 
@@ -506,6 +507,7 @@ for i = 1:nx-1
     plot3(v(:,1),v(:,2),v(:,3),'g.')
 end
 
+% Labelling certain points
 text(8, 41, 30, 'START');
 text(20, 80, 40, 'END');
 
@@ -520,7 +522,7 @@ zlabel('Z-Axis');
 view(0,90);
 %view(3);
 
-%% Animating the movement of the SCARA Robot
+%% Robot animation/simulation
 % Time settings to either speed up/slow down the animation
 t = (0: .1: 0.2)';
 
