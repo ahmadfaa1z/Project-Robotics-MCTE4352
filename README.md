@@ -9,12 +9,12 @@
 
 ### Robot Simulation
 - Video: 
-https://user-images.githubusercontent.com/39882376/121399489-0d8d5200-c989-11eb-822a-80212cc7b2cc.mp4
+(lastname_simulation.mp4)[https://user-images.githubusercontent.com/39882376/121399489-0d8d5200-c989-11eb-822a-80212cc7b2cc.mp4]
 
 ### Problem in ikine
 - Before fix:
-https://user-images.githubusercontent.com/39882376/121399823-69f07180-c989-11eb-8455-f733f5af5e2d.mp4
+(nonoptimal_ikine.mp4)[https://user-images.githubusercontent.com/39882376/121399823-69f07180-c989-11eb-8455-f733f5af5e2d.mp4]
 
 - After fix:
-https://user-images.githubusercontent.com/39882376/121399856-72e14300-c989-11eb-876b-a5d9122d5a0f.mp4
+(smooth_ikine.mp4)https://user-images.githubusercontent.com/39882376/121399856-72e14300-c989-11eb-876b-a5d9122d5a0f.mp4
 
