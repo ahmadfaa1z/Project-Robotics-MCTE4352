@@ -6,3 +6,15 @@
 
 ### Finding x-y coordinates of 'lastname' through image
 - Use **[pic2points](https://github.com/ahmadfaa1z/Project-Robotics-MCTE4352/tree/main/pic2points)** from [this website](https://www.mathworks.com/matlabcentral/fileexchange/54799-convert-image-pixels-to-xy-coordinates)
+
+### Robot Simulation
+- Video: 
+https://user-images.githubusercontent.com/39882376/121399489-0d8d5200-c989-11eb-822a-80212cc7b2cc.mp4
+
+### Problem in ikine
+- Before fix:
+https://user-images.githubusercontent.com/39882376/121399823-69f07180-c989-11eb-8455-f733f5af5e2d.mp4
+
+- After fix:
+https://user-images.githubusercontent.com/39882376/121399856-72e14300-c989-11eb-876b-a5d9122d5a0f.mp4
+
