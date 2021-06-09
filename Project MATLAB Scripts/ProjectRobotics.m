@@ -1,21 +1,20 @@
-%% Length's variable initialization
-a1 = 90;
-a2 = 90;
-d1 = 60; % Height of the Robot
-d3 = 5; % Length of prismatic joint 
+%% Setting of the lengths of each links
+a1 = 60;
+a2 = 60;
+a3 = 60;
+d1 = 30; % Height of the Robot
 
 %% Link Initialization
 % L = Link([Theta d a alpha 0/1]) >> 0 for revolute and 1 for prismatic
 % SCARA Robot DH parameters
 L1 = Link([0 d1 a1 0 0], 'standard');
-L2 = Link([0 0 a2 pi 0], 'standard');
-L3 = Link([0 d3 0 0 1], 'standard'); % Prismatic joint
-L4 = Link([0 0 0 0 0], 'standard'); % End effector
+L2 = Link([0 0 a2 0 0], 'standard');
+L3 = Link([0 0 a3 pi 0], 'standard');
+L4 = Link([0 0 0 0 0], 'standard');
 
 %% Robot settings
-L3.qlim = [0 10]; % up/down of prismatic joint for link 3
-Rob = SerialLink([L1 L2 L3 L4],'name','SCARA Robot');
-Rob.base = [1 0 0 -40;0 1 0 5;0 0 1 0;0 0 0 1];
+Rob = SerialLink([L1 L2 L3 L4],'name','3DOF Planar Robot');
+Rob.base = [1 0 0 -25;0 1 0 -60;0 0 1 0;0 0 0 1];
 
 %% Transformation points (x,y,z)
 matrix = dlmread('./Name-Coordinates/lastname_transformation_points.txt');

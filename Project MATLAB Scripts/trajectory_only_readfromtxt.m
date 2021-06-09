@@ -1,6 +1,6 @@
 %% Trajectory path of the robot
 
-trajectorypath = dlmread('./Name-Coordinates/Eiman_name.txt');
+trajectorypath = dlmread('./Name-Coordinates/lastname_only.txt');
 
 [nx,ny] = size(trajectorypath);
 

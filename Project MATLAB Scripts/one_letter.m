@@ -12,7 +12,7 @@ L3 = Link([0 d3 0 0 1], 'standard'); % Prismatic joint
 L4 = Link([0 0 0 0 0], 'standard'); % End effector
 
 %%
-L3.qlim = [0 10]; % up/down of prismatic joint for link 3
+L3.qlim = [0 5]; % up/down of prismatic joint for link 3
 Rob = SerialLink([L1 L2 L3 L4],'name','SCARA Robot');
 
 %% Transformation points (x,y,z)
