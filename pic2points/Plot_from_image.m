@@ -10,4 +10,3 @@ scatter(CoordinateMatrix (:,1), CoordinateMatrix (:,2),'.');
 %% To extract points data to excel files
 %xlswrite('./excel_data/F.xlsx',{'x','y'} ,'Sheet 1','A1')
 %xlswrite('./excel_data/F.xlsx', [(CoordinateMatrix (:,1)),(CoordinateMatrix (:,2))],'Sheet 1','A2')
-
