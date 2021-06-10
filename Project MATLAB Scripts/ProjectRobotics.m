@@ -502,8 +502,8 @@ hold on
 
 for i = 1:nx-1
     v=[trajectorypath(i,:);trajectorypath(i+1,:)];
-    plot3(v(:,1),v(:,2),v(:,3),'g');
-    plot3(v(:,1),v(:,2),v(:,3),'g.')
+    plot3(v(:,1),v(:,2),v(:,3),'r');
+    plot3(v(:,1),v(:,2),v(:,3),'r.')
 end
 
 % Labelling certain points
