@@ -1,9 +1,9 @@
 
 # Project-Robotics-MCTE4352
 - **Top View**
-  - ![Picture](https://user-images.githubusercontent.com/39882376/121505061-10ce1f80-ca15-11eb-82e9-165dc1f9716d.png = 250x)
+  - <img src="https://user-images.githubusercontent.com/39882376/121505061-10ce1f80-ca15-11eb-82e9-165dc1f9716d.png" width="48">
 - **3D View**
-  - ![Screenshot 2021-06-10 175626](https://user-images.githubusercontent.com/39882376/121505289-46730880-ca15-11eb-9f51-62ecd3f1274f.png = 250x)
+  - <img src="https://user-images.githubusercontent.com/39882376/121505289-46730880-ca15-11eb-9f51-62ecd3f1274f.png" width="48">
 
 
 
