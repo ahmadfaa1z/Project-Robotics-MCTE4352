@@ -13,7 +13,7 @@
 
 ### Problem in ikine
 - Before fix:
-[nonoptimal_ikine.mp4](https://user-images.githubusercontent.com/39882376/121399823-69f07180-c989-11eb-8455-f733f5af5e2d.mp4])
+[nonoptimal_ikine.mp4](https://user-images.githubusercontent.com/39882376/121475098-94791380-c9f7-11eb-9c24-e9d70cd66eef.mp4])
 
 - After fix:
 [smooth_ikine.mp4](https://user-images.githubusercontent.com/39882376/121399856-72e14300-c989-11eb-876b-a5d9122d5a0f.mp4)
