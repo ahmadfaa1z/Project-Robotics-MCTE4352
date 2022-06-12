@@ -30,3 +30,4 @@
 - After fix:
 [smooth_ikine.mp4](https://user-images.githubusercontent.com/39882376/121399856-72e14300-c989-11eb-876b-a5d9122d5a0f.mp4)
 
+For more information, check out the [report](Project_Robotics_Report.pdf).
